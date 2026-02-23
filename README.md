@@ -120,10 +120,3 @@ Base URL: `https://apihomolog.innovationbrindes.com.br`
 
 ![Lighthouse desktop - Login](docs/lighthouse-desktop-login.png)
 ![Lighthouse desktop - Produtos](docs/lighthouse-desktop-produtos.png)
-
-- Fluxo login -> produtos:
-  - adicionar GIF/MP4 em `docs/fluxo-login-produtos.gif` ou `docs/fluxo-login-produtos.mp4`
-
-## Pendencias conhecidas
-- Falta anexar GIF/MP4 curto do fluxo login -> produtos em `docs/`.
-
