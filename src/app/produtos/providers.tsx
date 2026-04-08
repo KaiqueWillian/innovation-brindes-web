@@ -6,7 +6,7 @@ import { Toaster } from '@/components/ui/Sonner';
 import { createQueryClient } from '@/lib/queryClient';
 import { useAuthStore } from '@/store/auth.store';
 
-export function Providers({ children }: PropsWithChildren) {
+export function ProdutosProviders({ children }: PropsWithChildren) {
   const [queryClient] = useState<QueryClient>(() => createQueryClient());
   const hydrateFromStorage = useAuthStore((state) => state.hydrateFromStorage);
 
@@ -21,5 +21,3 @@ export function Providers({ children }: PropsWithChildren) {
     </QueryClientProvider>
   );
 }
-
-

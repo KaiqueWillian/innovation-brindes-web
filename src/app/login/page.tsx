@@ -31,7 +31,6 @@ export default function LoginPage() {
                 alt="Innovation Brindes"
                 width={230}
                 height={70}
-                priority
                 className="h-auto w-[220px] max-w-full"
               />
             </div>
@@ -70,7 +69,6 @@ export default function LoginPage() {
               alt="Innovation Brindes"
               width={44}
               height={44}
-              priority
               className="h-11 w-11 rounded-[6px] shadow-md shadow-brand-600/20"
             />
           </div>
